@@ -7,7 +7,7 @@ Project Domain: Artificial Intelligence / Computer Vision / IoT
 Application: Wildlife Protection and Anti-Poaching Monitoring
 
 
-===============================================================
+
 1. PROBLEM STATEMENT
 ===============================================================
 
@@ -32,7 +32,7 @@ can automatically detect potential poaching activities using:
 • Automated Ranger Alert System
 
 
-===============================================================
+
 2. SYSTEM OVERVIEW
 ===============================================================
 
@@ -62,7 +62,7 @@ SMS Alert   LoRa Message   Evidence Logging
                      Map Visualization
 
 
-===============================================================
+
 3. OBJECT DETECTION MODEL
 ===============================================================
 
@@ -91,7 +91,7 @@ human without jacket = poacher
 human + gun = armed poacher
 
 
-===============================================================
+
 4. YOLO TRAINING CONFIGURATION
 ===============================================================
 
@@ -135,7 +135,7 @@ CUDA: 12.1
 PyTorch: 2.5.1+cu121
 
 
-===============================================================
+
 5. DATASET DETAILS
 ===============================================================
 
@@ -149,7 +149,7 @@ https://www.kaggle.com/datasets/javohirtoshqorgonov/noise-audio-data
 https://www.kaggle.com/datasets/shijo96john/elephant-thermal-images
 https://www.kaggle.com/datasets/vivmankar/asian-vs-african-elephant-image-classification
 
-===============================================================
+
 6. YOLO MODEL PERFORMANCE
 ===============================================================
 
@@ -194,7 +194,7 @@ Best model saved at:
 runs/detect/train17/weights/best.pt
 
 
-===============================================================
+
 7. INFERENCE SPEED
 ===============================================================
 
@@ -205,7 +205,7 @@ Postprocess time: 1.7 ms
 Average total inference time per image ≈ 9.5 ms
 
 
-===============================================================
+
 8. GUNSHOT DETECTION MODEL
 ===============================================================
 
@@ -225,7 +225,7 @@ Input Features:
 These features are stacked to create a multi-channel audio feature map.
 
 
-===============================================================
+
 9. GUNSHOT MODEL PERFORMANCE
 ===============================================================
 
@@ -255,7 +255,7 @@ Overall Accuracy:
 93%
 
 
-===============================================================
+
 10. THREAT CLASSIFICATION LOGIC
 ===============================================================
 
@@ -272,7 +272,7 @@ human + gun -> Armed Poacher
 Gunshot detected -> Critical Alert
 
 
-===============================================================
+
 11. SYSTEM COMPONENTS
 ===============================================================
 
@@ -337,7 +337,7 @@ data.yaml
 YOLO dataset configuration file.
 
 
-===============================================================
+
 12. SYSTEM OUTPUT
 ===============================================================
 
@@ -349,7 +349,7 @@ When a poacher event is detected the system:
 4. Updates event location on monitoring map
 
 
-===============================================================
+
 13. FUTURE IMPROVEMENTS
 ===============================================================
 
